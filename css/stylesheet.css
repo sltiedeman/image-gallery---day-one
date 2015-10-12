@@ -17,6 +17,12 @@ h1 {
 	float:left;
 	margin-right:2%;
 	margin-left:2%;
+	text-align:center;
+	font-size: .7em;
+}
+
+.thumbnails p {
+	padding-bottom: 6px;
 }
 
 .thumbnails img{
@@ -31,13 +37,36 @@ h1 {
 }
 
 .preview {
-	text-align:center;
-	width: 40%;
 	float: left;
+	width: 48%;
 	margin: 0 2%;
 }
 
 .preview img {
 	width: 100%;
 	max-width: 100%;
+}
+
+.thumbnails_2 {
+	float:right;
+	width:20%;
+	margin-right:2%;
+	margin-left:2%;
+	text-align:center;
+	font-size: .7em;
+}
+
+.thumbnails_2 p {
+	padding-bottom: 6px;
+}
+
+
+.thumbnails_2 img{
+	height: 80px;
+	border: 4px solid #555;
+	max-width: 100%;
+}
+
+.thumbnails_2 img:hover{
+	border: 4px solid #00ccff;
 }
