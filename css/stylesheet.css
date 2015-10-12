@@ -12,13 +12,17 @@ h1 {
 	margin-bottom: 20px;
 }
 
+
 .thumbnails {
-	width:20%;
-	float:left;
-	margin-right:2%;
-	margin-left:2%;
-	text-align:center;
+	width: 100%;
 	font-size: .7em;
+}
+
+.thumbnail_wrapper {
+	float: left;
+	text-align:center;
+	margin: auto;
+	width: 20%;
 }
 
 .thumbnails p {
@@ -27,8 +31,10 @@ h1 {
 
 .thumbnails img{
 	height: 80px;
+	width: 100%;
 	border: 4px solid #555;
 	max-width:100%;
+	float: left;
 }
 
 .thumbnails img:hover{
@@ -36,39 +42,17 @@ h1 {
 
 }
 
+
+
+
 .preview {
-	float: left;
-	width: 48%;
-	margin: 0 2%;
+	width: 60%;
+	margin: auto;
 }
 
 .preview img {
 	width: 100%;
 	max-width: 100%;
-}
-
-.thumbnails_2 {
-	float:right;
-	width:20%;
-	margin-right:2%;
-	margin-left:2%;
-	text-align:center;
-	font-size: .7em;
-}
-
-.thumbnails_2 p {
-	padding-bottom: 6px;
-}
-
-
-.thumbnails_2 img{
-	height: 80px;
-	border: 4px solid #555;
-	max-width: 100%;
-}
-
-.thumbnails_2 img:hover{
-	border: 4px solid #00ccff;
 }
 
 
